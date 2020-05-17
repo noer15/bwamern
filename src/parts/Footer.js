@@ -60,7 +60,7 @@ export default function Footer() {
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <Button type="link" href="mailto:support@staycation.id">
-                  support@staycation.id
+                  support@ngkostkuy.id
                 </Button>
               </li>
               <li className="list-group-item">
@@ -69,14 +69,14 @@ export default function Footer() {
                 </Button>
               </li>
               <li className="list-group-item">
-                <span>Staycation, Kemang, Jakarta</span>
+                <span>NgkostKuy, Cirebon, Jabar</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="row">
           <div className="col text-center copyright">
-            Copyright 2019 • All rights reserved • Staycation
+            Copyright 2019 • All rights reserved • NgkostKuy.
           </div>
         </div>
       </div>
