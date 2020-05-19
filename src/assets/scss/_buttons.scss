@@ -130,6 +130,8 @@ $value in $theme-colors {
 .btn-block {
   display: block;
   width: 100%;
+  display: flex;
+  justify-content: center;
 
   // Vertically space out multiple block buttons
   +.btn-block {

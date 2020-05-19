@@ -80,7 +80,7 @@ class BookingForm extends Component {
 
   render() {
     const { data } = this.state;
-    const { itemDetails, startBooking } = this.props;
+    const { itemDetails } = this.props;
 
     return (
       <div className="card bordered" style={{ padding: "60px 80px" }}>
@@ -135,7 +135,7 @@ class BookingForm extends Component {
 
 BookingForm.propTypes = {
   itemDetails: propTypes.object,
-  startBooking: propTypes.func,
+  // startBooking: propTypes.func,
 };
 
 export default withRouter(BookingForm);
